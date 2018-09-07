@@ -1,0 +1,16 @@
+PAGE_SIZE 100
+NUM_PAGES 4
+PATH_FOR_DATA ./
+BEGIN
+countries
+ID,int
+CODE,String
+NAME,String
+CONTINENT,String
+END
+BEGIN
+state
+ID,int
+NAME,String
+COUNTRY,String
+END

@@ -1,0 +1,7 @@
+6
+dbs.queryType("select countries.NAME , state.NAME , state.CONTINENT from state join countries on state.COUNTRY = countries.NAME;")
+V("countries", "NAME")
+dbs.insertRecord("countries", ""302763","AS","American Samoa1","OC"")
+dbs.queryType("V("countries", "NAME")")
+select countries.NAME , state.NAME , state.CONTINENT from state join countries on state.COUNTRY = countries.NAME;
+dbs.queryType("select countries.NAME , state.COUNTRY from countries join state on state.COUNTRY = countries.NAME join countries ON countries.NAME = state.COUNTRY")

@@ -1,0 +1,18 @@
+PAGE_SIZE 310
+NUM_PAGES 4
+PATH_FOR_DATA ./
+BEGIN
+transactions
+val,String
+NAME,String
+ID,int
+str4,String
+int1,int
+int2,int
+int3,int
+str5,String
+str6,String
+int4,int
+float1,float
+float2,float
+END
